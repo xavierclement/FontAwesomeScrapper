@@ -1,2 +1,2 @@
 # FontAwesomeScrapper
- A Ruby library that retrieves all Font Awesome V5 icons
+ A Ruby gem that retrieves all Font Awesome V5 icons
