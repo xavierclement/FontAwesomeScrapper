@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    algolia (2.3.2)
+      faraday (>= 0.15, < 3)
+      faraday-net_http_persistent (>= 0.15, < 3)
+      multi_json (~> 1.0)
+      net-http-persistent
+    base64 (0.1.1)
+    connection_pool (2.4.1)
+    faraday (2.7.11)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
+    faraday-net_http_persistent (2.1.0)
+      faraday (~> 2.5)
+      net-http-persistent (~> 4.0)
+    minitest (5.20.0)
+    multi_json (1.15.0)
+    net-http-persistent (4.0.2)
+      connection_pool (~> 2.2)
+    rake (13.0.6)
+    ruby2_keywords (0.0.5)
+
+PLATFORMS
+  x86_64-darwin-22
+
+DEPENDENCIES
+  algolia (~> 2.3)
+  minitest (~> 5.20)
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.4.14
